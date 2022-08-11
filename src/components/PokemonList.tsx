@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import {
   StyleSheet,
   Text,
@@ -7,12 +7,13 @@ import {
   Pressable,
   ScrollView,
 } from "react-native";
-import Pokemon, { PokemonsName, Stats } from "../models/Pokemon";
+import Pokemon, { Stats } from "../models/Pokemon";
 import { useAppDispatch, useAppSelector } from "../app/hooks";
 import { setPokemonList } from "../features/pokemonListSlice";
 import { Colors } from "../color";
 import { setPokemon } from "../features/pokemonSlice";
 import { useNavigation } from "@react-navigation/native";
+import { PokemonsName } from "../models/PokemonList";
 
 const PokemonList = () => {
   const navigation = useNavigation();
