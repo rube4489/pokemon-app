@@ -125,7 +125,7 @@ const PokemonList = () => {
         
       </View>
       <View>
-        <Text style={styles.title}>¡Descubre tu pokesorpresa!</Text>
+        <Text style={styles.title}>¡Descubre tu poke sorpresa!</Text>
       </View>
       <ScrollView>
         <View style={[styles.pokeballContainer, { marginTop: 50 }]}>
