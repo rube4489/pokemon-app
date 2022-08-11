@@ -2,7 +2,7 @@
 ## ¡Descubre tu pokemon!
 ## Preview
 ![img](https://firebasestorage.googleapis.com/v0/b/document-app-5378b.appspot.com/o/Screenshot_20220811-110509.png?alt=media&token=cbdaf9b3-3600-42eb-b22e-a901b7349be0)
-![img](https://firebasestorage.googleapis.com/v0/b/document-app-5378b.appspot.com/o/Screenshot_20220811-110602.png?alt=media&token=806255ea-08ca-43da-8e45-0934983d9071sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss)
+![img](https://firebasestorage.googleapis.com/v0/b/document-app-5378b.appspot.com/o/Screenshot_20220811-110602%20(1).png?alt=media&token=fc3ad53e-04eb-458e-baa8-fe7259ce7c0f)
 
 ## Features
 
