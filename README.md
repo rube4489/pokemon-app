@@ -1,7 +1,7 @@
 # Pokemon surprise app 
 ## ¡Descubre tu pokemon!
 ## Preview
-![img](https://firebasestorage.googleapis.com/v0/b/document-app-5378b.appspot.com/o/Screenshot_20220811-110509.png?alt=media&token=5e6fbad1-0e42-4830-a59a-8edd694c988b)
+![img](https://firebasestorage.googleapis.com/v0/b/document-app-5378b.appspot.com/o/Screenshot_20220811-110509.png?alt=media&token=cbdaf9b3-3600-42eb-b22e-a901b7349be0)
 ![img](https://firebasestorage.googleapis.com/v0/b/document-app-5378b.appspot.com/o/Screenshot_20220811-110602.png?alt=media&token=806255ea-08ca-43da-8e45-0934983d9071sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss)
 
 ## Features
