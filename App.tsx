@@ -1,20 +1,26 @@
 import React from "react";
-import {
-  SafeAreaView,
-  StatusBar,
-  StyleSheet,
-  Text,
-  useColorScheme,
-  View,
-} from "react-native";
+import { Provider } from "react-redux";
+import PokemonList from "./src/components/PokemonList";
+import { store } from "./src/app/store";
+import { NavigationContainer } from "@react-navigation/native";
+import { createNativeStackNavigator } from "@react-navigation/native-stack";
+import PokemonDetail from "./src/screens/PokemonDetail";
+
+const RootStack = createNativeStackNavigator();
 
 const App = () => {
-  const isDarkMode = useColorScheme() === "dark";
-
   return (
-    <View>
-      <StatusBar barStyle={isDarkMode ? "light-content" : "dark-content"} />
-    </View>
+    <Provider store={store}>
+      <NavigationContainer>
+        <RootStack.Navigator
+          screenOptions={{ headerShown: false }}
+          initialRouteName="home"
+        >
+          <RootStack.Screen name="home" component={PokemonList} />
+          <RootStack.Screen name="pokemon-detail" component={PokemonDetail} />
+        </RootStack.Navigator>
+      </NavigationContainer>
+    </Provider>
   );
 };
 
