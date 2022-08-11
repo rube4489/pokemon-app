@@ -1,5 +1,5 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
-import { PokemonsName } from "../models/Pokemon";
+import { PokemonsName } from "../models/PokemonList";
 
 const initialState: PokemonsName = {
   pokemon1: "",
